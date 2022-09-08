@@ -75,6 +75,9 @@
     border: solid 3px rgb(240, 142, 14);
     border-radius: 5px;
 }
+.dd-services a{
+    text-decoration: none;
+}
 .dd-services-item span{
     background-color: rgba(0, 0, 0, 0.400);
     color: white;
