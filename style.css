@@ -87,9 +87,51 @@
 }
 .youtoobe iframe{
     width: 100% ;
+    height: 200px;
 }
 .accordion-body img{
     width: 100%;
+}
+.work-order{
+    border: dashed 2px rgb(240, 142, 14);
+    padding: 15px 0;
+}
+.work-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work-img{
+    width: 80px;
+    margin: 5px;
+}
+.work-arrow{
+    width: 40px;
+    margin-bottom: 10px;
+}
+.about-us-img figure img{
+    width: 100%;
+}
+.dd-footer-logo{
+    margin: 10px 0 20px 0;
+   }
+.dd-footer-logo img {
+       width: 120px;
+   }
+.dd-logo-footer span{
+       font-weight: bold;
+       font-size: 20px;
+   }
+.dd-link-footer{
+    font-size: 20px;
+}
+.autor span{
+     font-size: 13px;
+}
+.card-footer iframe{
+    width: 100%;
+    margin: 15px 0;
 }
 }
 .dd-link{
@@ -172,4 +214,17 @@
    width: 25px;
    height: 20px;
  }
- 
+ .don-dragon{
+    background-color: rgb(44, 44, 44);
+    color: rgb(189, 189, 189);
+    text-align: end;
+    font-size: 10px;
+ }
+footer{
+    border-top: 3px solid rgb(240, 142, 14);
+    background-color: rgb(224, 224, 224);
+ }
+ .don-dragon a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+ }

@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header container">
+  <header>
+    <div class="container">
         <div class="dd-header-logo d-flex justify-content-center align-items-center">
             <img src="assets/ava.png" alt="logo">
           <div class="dd-logo-title">
@@ -48,7 +49,7 @@
             <div class="dd-address-title">
                 <b>Адрес цеха:</b>
                 <br>
-                г.Н.Новгород ул.Заовражная стр.33
+                г.Н.Новгород ул.Заовражная стр.7
             </div>
         </div>
         <div class="dd-social d-flex justify-content-center align-items-center">
@@ -65,6 +66,9 @@
             <button class="dd-button-feedback">Обратный звонок</button>
         </div>
     </div>
+   </header>
+
+    <main>
     <div class="carousel">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
@@ -276,10 +280,87 @@
       </div>
      </div>
 
-     <div class="work-order">
-      <h3 class="text-center">Порядок выполнения работ</h3>
+     <h3 class="text-center">Порядок выполнения работ</h3>
+     <div class="work-order container col-10">
+      <div class="work-item application">
+        <span>Приём заявки, составление договора</span>
+        <img class="work-img" src="assets/application.png" alt="application">
+        <img class="work-arrow" src="assets/arrow.png" alt="arrow">        
+      </div>
+      <div class="work-item accounting">
+        <span>Расчёт стоимости</span>
+        <img class="work-img" src="assets/accounting.png" alt="accounting">
+        <img class="work-arrow" src="assets/arrow.png" alt="arrow">
+      </div>
+      <div class="work-item team">
+        <span>Проведение работ</span>
+        <img class="work-img" src="assets/team.png" alt="team">
+        <img class="work-arrow" src="assets/arrow.png" alt="arrow">
+      </div>
+      <div class="work-item payment">
+        <span>Оплата</span>
+        <img class="work-img" src="assets/payment.png" alt="payment">
+      </div>
      </div>
+     
+     <h3 class="text-center">О нас</h3>
+     <div class="about-us container">
+      <p>Пескоструйная обработка — это высокоэффективный метод очистки поверхности изделий от старой краски, коррозии, грязи, окалины, следов битума и других загрязнений, при помощи абразивных частиц, например песка. Такая технология возвращает деталям блеск и новизну и значительно увеличивает срок их службы. Так компаниям не нужно покупать новые детали, емкости, резервуары, строительные материалы. Достаточно очистить старую поверхность от ржавчины, копоти, плесени и она вновь становится как новая. </p>
+
+       <p> Мы имеем соответствующее оборудование и свой штат сотрудников. Знаем все нюансы и секреты пескоструйной обработки различных видов поверхности.</p>
+       <p>Используем только лучшее оборудование:</p>
+       
+       <div class="about-us-img container col-10">
+        <figure class = "equipment">
+          <img src = "assets/equipment/1.jpg">
+          <figcaption>Компрессор
+            Atmos PDP 35</figcaption>
+        </figure>
+        <figure class = "equipment">
+          <img src = "assets/equipment/2.jpg">
+          <figcaption>Компрессор
+            Atlas Copco XAS 97</figcaption>
+        </figure>
+        <figure class = "equipment">
+          <img src = "assets/equipment/3.jpg">
+          <figcaption>Окрасочный аппарат
+            Tritech T5</figcaption>
+        </figure>
+        <figure class = "equipment">
+          <img src = "assets/equipment/4.jpg">
+          <figcaption>Пескоструйные аппараты Contracor DBS-100 и DBS 200</figcaption>
+        </figure>
+       </div>
+     </div>
+    </main>
     
+     <footer>
+      <div class="footer-info d-flex flex-column align-items-center">
+        <div class="dd-footer-logo d-flex justify-content-center align-items-center">
+          <img src="assets/ava.png" alt="logo">
+        <div class="dd-logo-footer">
+            <span>ПЕСКОСТРУЙНАЯ ОБРАБОТКА</span> 
+            <br>
+            Весь спектр услуг в твоём городе!
+        </div>
+      </div>      
+      <div class="feedback-footer d-flex flex-column">
+        <a class="dd-link-footer dd-link" href="#"><b>+7 (900) 900-00-00</b></a>
+        <a class="dd-link-footer dd-link" href="#">email-address.com</a>
+      </div>
+      <div class="card-footer col-12">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af2ae73a9030c5be5f5678e405d61301fa0609d12cff15d5a9b820f08b1b6c7d5&amp;source=constructor" frameborder="0"></iframe>
+      </div>
+      <div class="autor">
+        <p>Пескоструйная обработка в Москве
+          Все права защищены © 2022</p>
+        <span>Вся представленная на сайте информация, касающаяся технических характеристик, стоимости услуг, носит информационный характер и ни при каких условиях не является публичной офертой.</span>
+      </div>
+      </div>
+      <div class="don-dragon">
+        По вопросам создания сайта <a href="#">developer.don.dragon@gmail.com</a>
+      </div>
+     </footer>
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
