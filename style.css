@@ -224,6 +224,7 @@
     color: rgb(189, 189, 189);
     text-align: end;
     font-size: 10px;
+    padding-right: 10px;
  }
 footer{
     border-top: 3px solid rgb(240, 142, 14);
@@ -418,5 +419,17 @@ footer{
     }
     .feedback-footer a{
         font-size: 30px;
+    }
+    .autor{
+        font-size: 20px;
+    }
+    .autor span{
+        font-size: 18px;
+    }
+    .don-dragon{
+        font-size: 16px;
+    }
+    .dd-button-feedback{
+        font-size: 25px;
     }
  }
