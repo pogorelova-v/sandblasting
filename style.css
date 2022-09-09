@@ -3,7 +3,7 @@
     border: solid red 2px;
 }
 /*-----------header-------------*/
-@media (max-width: 575px){
+
 .dd-header-logo{
  margin: 10px 0 20px 0;
 }
@@ -27,7 +27,7 @@
 .dd-social a img{
     width: 50px;
     height: 50px;
-    margin: 10px;
+    margin: 15px;
 }
 .dd-feedback-header{
     margin: 10px;
@@ -90,7 +90,7 @@
 }
 .youtoobe iframe{
     width: 100% ;
-    height: 200px;
+    height: 400px;
 }
 .accordion-body img{
     width: 100%;
@@ -106,7 +106,7 @@
     align-items: center;
 }
 .work-img{
-    width: 80px;
+    width: 70px;
     margin: 5px;
 }
 .work-arrow{
@@ -129,13 +129,15 @@
 .dd-link-footer{
     font-size: 20px;
 }
+.autor{
+    margin: 2px;
+}
 .autor span{
      font-size: 13px;
 }
 .card-footer iframe{
     width: 100%;
     margin: 15px 0;
-}
 }
 .dd-link{
     color: rgb(240, 142, 14);
@@ -230,4 +232,46 @@ footer{
  .don-dragon a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+ }
+
+ @media (min-width: 768px){
+    .dd-services-item{
+        width: 200px;
+        height: 200px;
+    }
+    .work-img{
+        width: 50px;
+    }
+    .work-arrow-md{
+        width: 40px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .wrapper-arrow-md-1{
+        transform: rotate(270deg);
+    }
+    .wrapper-arrow-md-3{
+        transform: rotate(90deg);
+    }
+    .autor{
+        font-size: 13px;
+    }
+    .autor span{
+        font-size: 10px;
+    }  
+ }
+ @media (min-width: 992px){
+    .dd-header-logo img {
+        width: 250px;
+    }
+    .dd-logo-title{
+        font-size: 20px;
+    }
+    .dd-logo-title span {
+        font-size: 30px;
+    }
+    .dd-social a img{
+        width: 70px;
+        height: 70px;
+    }
  }
