@@ -307,6 +307,17 @@ footer{
     }
  }
  @media (min-width: 1200px){
+    .accordion-collapse img{
+        width: 50%;
+        float: left;
+        margin: 15px;
+    }
+    .accordion-collapse p{
+        margin-top: 25px;
+        font-size: 20px;
+    }
+ }
+ @media (min-width: 1400px){
     .dd-logo-title{
         font-size: 25px;
     }.dd-logo-title span {
@@ -364,15 +375,6 @@ footer{
       .checkbox__label{
         font-size: 25px;
       }
-      .accordion-collapse img{
-        width: 50%;
-        float: left;
-        margin: 15px;
-    }
-    .accordion-collapse p{
-        margin-top: 25px;
-        font-size: 25px;
-    }
     h3{
         font-size: 35px;
     }
