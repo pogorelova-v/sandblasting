@@ -83,8 +83,12 @@
     text-align: center;
     border: solid 3px rgb(240, 142, 14);
     border-radius: 5px;
-        width: 200px;
-        height: 200px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.dd-services-item:hover{
+    box-shadow:  0 0 10px 5px rgb(240, 142, 14);
 }
 .dd-services a{
     text-decoration: none;
@@ -287,11 +291,11 @@ footer{
 .dd-overlay-modals-close{
     visibility: hidden;    
     transform: scale(0);
-    transition: all 1s;
+    transition: all 0.5s;
 }
 .dd-overlay-modals-open{
    transform: scale(1) rotate(360deg);
-   transition: all 1s;
+   transition: all 0.5s;
 }
 .dd-services-modals{
     width: 300px;
