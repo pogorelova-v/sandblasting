@@ -253,6 +253,66 @@ footer{
  .dd-social{
     display: none;
  }
+ .dd-services-modals{
+    width: 300px;
+    height: 500px;
+    z-index: 6;
+    position: fixed;
+    left:50%;
+    top:50%;
+    margin-left: -150px;
+    margin-top: -250px;
+ }
+ 
+.dd-services-modals img{
+    width: 300px;
+   }
+.dd-services-item-modal-open{
+    transition: all 0.5s;   
+}
+.dd-services-item-modal-close{
+    transform: scale(0);
+    transition: all 0.5s;
+}
+.dd-overlay-modals{
+    background-color: rgba(102, 102, 102, 0.5);
+    z-index: 5;    
+   visibility: visible;
+   position:fixed;
+   top:0px;
+   left:0px;
+   width:100vw;
+   height:100vh;
+}
+.dd-overlay-modals-close{
+    visibility: hidden;    
+    transform: scale(0);
+    transition: all 1s;
+}
+.dd-overlay-modals-open{
+   transform: scale(1) rotate(360deg);
+   transition: all 1s;
+}
+.dd-services-modals{
+    width: 300px;
+    height: 500px;
+    z-index: 6;
+    position: fixed;
+    left:50%;
+    top:50%;
+    margin-left: -150px;
+    margin-top: -250px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 5px solid  rgb(240, 142, 14) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ } 
+.dd-services-modals img{
+    width: 90%;
+   }
 
  @media (min-width: 768px){
     .work-img{
@@ -275,6 +335,16 @@ footer{
     .autor span{
         font-size: 10px;
     } 
+    .dd-services-modals{
+        width: 500px;
+        height: 600px;
+        z-index: 6;
+        position: fixed;
+        left:50%;
+        top:50%;
+        margin-left: -250px;
+        margin-top: -300px;
+     }    
  }
  @media (min-width: 992px){
     .dd-header-logo img {
@@ -314,6 +384,16 @@ footer{
     .dd-social{
         display: block;
     }
+    .dd-services-modals{
+        width: 800px;
+        height: 900px;
+        z-index: 6;
+        position: fixed;
+        left:50%;
+        top:50%;
+        margin-left: -400px;
+        margin-top: -450px;
+     }
  }
  @media (min-width: 1200px){
     .accordion-collapse img{
@@ -446,4 +526,14 @@ footer{
     .dd-button-feedback{
         font-size: 25px;
     }
+    .dd-services-modals{
+        width: 1000px;
+        height: 900px;
+        z-index: 6;
+        position: fixed;
+        left:50%;
+        top:50%;
+        margin-left: -500px;
+        margin-top: -450px;
+     }
  }

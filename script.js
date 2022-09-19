@@ -66,5 +66,59 @@ document.addEventListener('DOMContentLoaded', function(){ //ждём пока с
     function formRemoveError(input) {       //фунция убираем класс "ошибка" элементу 
         input.classList.remove('_error');
    }
- 
+
  });
+
+ //----------------modal
+
+
+const overlayModals = document.querySelector('.dd-overlay-modals')
+
+const services1 = document.querySelector('.dd-services1');
+const services1modal = document.querySelector('.dd-services1-modal')
+const services2 = document.querySelector('.dd-services2');
+const services2modal = document.querySelector('.dd-services2-modal')
+const services3 = document.querySelector('.dd-services3');
+const services3modal = document.querySelector('.dd-services3-modal')
+const services4 = document.querySelector('.dd-services4');
+const services4modal = document.querySelector('.dd-services4-modal')
+const services5 = document.querySelector('.dd-services5');
+const services5modal = document.querySelector('.dd-services5-modal')
+
+
+overlayModals.addEventListener('click', function(){
+    services1modal.classList.add('dd-services-item-modal-close');
+    services1modal.classList.remove('dd-services-item-modal-open');
+    services2modal.classList.add('dd-services-item-modal-close');
+    services2modal.classList.remove('dd-services-item-modal-open');
+    services3modal.classList.add('dd-services-item-modal-close');
+    services3modal.classList.remove('dd-services-item-modal-open');    
+    services4modal.classList.add('dd-services-item-modal-close');
+    services4modal.classList.remove('dd-services-item-modal-open');    
+    services5modal.classList.add('dd-services-item-modal-close');
+    services5modal.classList.remove('dd-services-item-modal-open');
+    overlayModals.classList.add('dd-overlay-modals-close');
+    overlayModals.classList.remove('dd-overlay-modals-open');
+ })
+
+ const openCloseModal = (elem) => {
+    elem.classList.remove('dd-services-item-modal-close');
+    elem.classList.add('dd-services-item-modal-open');
+    overlayModals.classList.remove('dd-overlay-modals-close');
+    overlayModals.classList.add('dd-overlay-modals-open');
+ }
+ services1.addEventListener('click', function(){
+    openCloseModal(services1modal)
+});
+services2.addEventListener('click', function(){
+    openCloseModal(services2modal)
+});
+services3.addEventListener('click', function(){
+    openCloseModal(services3modal)
+});
+services4.addEventListener('click', function(){
+    openCloseModal(services4modal)
+});
+services5.addEventListener('click', function(){
+    openCloseModal(services5modal)
+});
