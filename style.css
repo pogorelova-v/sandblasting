@@ -233,13 +233,6 @@
    width: 25px;
    height: 20px;
  }
- .don-dragon{
-    background-color: rgb(44, 44, 44);
-    color: rgb(189, 189, 189);
-    text-align: end;
-    font-size: 10px;
-    padding-right: 10px;
- }
 footer{
     border-top: 3px solid rgb(240, 142, 14);
     background-color: rgb(224, 224, 224);
